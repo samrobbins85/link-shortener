@@ -9,7 +9,7 @@ export default function Home({ data }) {
       <h1 className="text-3xl text-center pt-4 font-semibold">
         Sam&apos;s Link Shortener
       </h1>
-      <main className="max-w-md mx-auto py-4 pt-4">
+      <main className="max-w-md mx-auto px-4 pt-4">
         <ul className="grid gap-y-4">
           {data.items.map((item) => (
             <li key={item._id} className="border-2 px-4 py-2">
