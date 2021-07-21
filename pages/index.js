@@ -20,6 +20,15 @@ export default function Home({ data }) {
             </li>
           ))}
         </ul>
+        <p className="text-center pt-4">
+          Check out the code on{" "}
+          <a
+            className="text-blue-800 hover:underline"
+            href="https://github.com/samrobbins85/link-shortener"
+          >
+            GitHub
+          </a>
+        </p>
       </main>
     </div>
   );
